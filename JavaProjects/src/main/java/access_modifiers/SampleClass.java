@@ -1,4 +1,4 @@
-//program to check accessing a public method from another class of same package.
+//program to check accessing a public method from another class of same package  .
 package access_modifiers;
 
 public class SampleClass {
