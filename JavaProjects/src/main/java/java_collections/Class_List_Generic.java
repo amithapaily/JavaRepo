@@ -3,7 +3,7 @@ package java_collections;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Class_List 
+public class Class_List_Generic 
 {
 
 	public static void main(String[] args) 
