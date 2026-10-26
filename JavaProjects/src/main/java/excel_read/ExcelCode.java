@@ -15,7 +15,7 @@ public class ExcelCode {
 	static XSSFSheet sh;//used to represent the sheet from the workbook
 
 	public static String readStringData(int row, int col) throws IOException {//method to read string data from excel file.
-		f = new FileInputStream("/Users/noelabraham/Downloads/PersonalDetails.xlsx");//path of the excel file.
+		f = new FileInputStream("/Users/noelabraham/git/JavaRepo/JavaProjects/src/main/resources/PersonalDetails.xlsx");//path of the excel file.
 		w = new XSSFWorkbook(f);//load the excel workbook into memory using apache POI.
 		sh = w.getSheet("Sheet1");//to select sheet named "Sheet1" from workbook.
 		XSSFRow r = sh.getRow(row);//to gets the row based on the row number passed as an argument.
@@ -25,7 +25,7 @@ public class ExcelCode {
 	}
 
 	public static String readIntegerData(int row, int col) throws IOException {//method to read integer data from excel file
-		f = new FileInputStream("/Users/noelabraham/Downloads/PersonalDetails.xlsx");
+		f = new FileInputStream("/Users/noelabraham/git/JavaRepo/JavaProjects/src/main/resources/PersonalDetails.xlsx");
 		w = new XSSFWorkbook(f);
 		sh = w.getSheet("Sheet1");
 		XSSFRow r = sh.getRow(row);
